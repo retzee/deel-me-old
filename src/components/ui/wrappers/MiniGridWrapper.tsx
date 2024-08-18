@@ -1,0 +1,13 @@
+const MiniGridWrapper = ({children}) => {
+    return (
+        <div class="grid grid-cols-6 gap-4 mb-8">
+            <div class="col-start-3 col-span-2 border-2 border-red-800 text-center rounded-lg shadow">
+                <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+                    {children}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default MiniGridWrapper;
