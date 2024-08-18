@@ -1,0 +1,25 @@
+
+.main_container {
+    @apply flex flex-col md:flex-row justify-center items-center mt-20;
+} 
+
+.main_container h1 {
+    @apply text-base md:text-sm text-[#e58673] font-serif pb-2;
+    font-size: 18px;
+}
+
+.user_counter {
+    @apply font-extrabold text-4xl md:text-5xl text-[#0c4a6e];
+}
+
+.sign_up {
+    @apply text-white text-xs my-2 px-4 py-2 rounded-md bg-[#f1a501];
+}
+
+.search_form {
+    @apply mt-4 border rounded-md flex items-center;
+}
+
+.search_form button {
+    @apply text-white text-xs px-6 py-2.5 rounded-md bg-[#57c293];
+}
