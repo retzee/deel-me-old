@@ -1,6 +1,6 @@
 import styles from "@/src/components/ui/button/Button.module.scss";
 
-const Button: React.FC<{id: number, value: string, classes: string}> = props => {
+const Button: React.FC<{id?: string, value: string, classes?: string}> = props => {
     return (
         <button  
             onClick={props.onClick} 

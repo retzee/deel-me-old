@@ -1,6 +1,6 @@
 import styles from "@/src/components/ui/input/Input.module.scss";
 
-const Input: React.FC<{id: string, type: string, value: string, label: string, classes: string}> = props => {
+const Input: React.FC<{id?: string, type: string, value: string, label?: string, classes?: string}> = props => {
     return (
         <div>
             <label htmlFor={props.id} className={styles.label}>
