@@ -10,8 +10,8 @@ const Input: React.FC<{id?: string, type: string, value?: string, label?: string
                 id={props.id} 
                 type={props.type} 
                 value={props.value}
-                onChange={props.onChange}
-                className={styles.input_text_field}
+                //onChange={props.onChange}
+                //className={styles.input_text_field}
             />
         </div>
     );
