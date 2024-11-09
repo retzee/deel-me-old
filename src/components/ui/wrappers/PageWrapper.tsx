@@ -1,7 +1,9 @@
-const PageWrapper: React.FC = props => {
+const PageWrapper: React.FC<{
+  children: React.ReactNode;
+}> = ({ children }) => {
     return (
         <div className="max-w-6xl m-auto px-4">
-            {props.children}
+            {children}
         </div>
     );
 }
