@@ -1,6 +1,4 @@
-import { PropsWithChildren } from 'react'
-
-const MiniGridWrapper = (props: PropsWithChildren) => {
+const MiniGridWrapper: React.FC = props => {
     return (
         <div className="grid grid-cols-6 gap-4 mb-8">
             <div className="col-start-3 col-span-2 border-2 border-red-800 text-center rounded-lg shadow">

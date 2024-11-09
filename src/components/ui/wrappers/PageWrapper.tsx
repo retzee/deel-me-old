@@ -1,6 +1,4 @@
-import { PropsWithChildren } from 'react'
-
-const PageWrapper = (props: PropsWithChildren) => {
+const PageWrapper: React.FC = props => {
     return (
         <div className="max-w-6xl m-auto px-4">
             {props.children}
