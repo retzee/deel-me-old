@@ -1,6 +1,6 @@
-import { JSX } from "react";
+import { PropsWithChildren } from 'react'
 
-const MiniGridWrapper = (props: { children: JSX.Element }) => {
+const MiniGridWrapper = (props: PropsWithChildren) => {
     return (
         <div class="grid grid-cols-6 gap-4 mb-8">
             <div class="col-start-3 col-span-2 border-2 border-red-800 text-center rounded-lg shadow">
