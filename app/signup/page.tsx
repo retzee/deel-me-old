@@ -26,25 +26,21 @@ export default function Signup (){
                     label="First Name" 
                     id="first_name" 
                     type="text" 
-                    onChange={emailChangeHandler} 
                 />
                 <Input 
                     label="Surname" 
                     id="surname" 
                     type="text" 
-                    onChange={emailChangeHandler} 
                 />
                 <Input 
                     label="Email" 
                     id="email" 
                     type="email" 
-                    onChange={emailChangeHandler} 
                 />
                 <Input 
                     label="Password" 
                     id="password" 
-                    type="password" 
-                    onChange={passwordChangeHandler} 
+                    type="password"  
                 />
                 <Button id="signup" value="Sign Me Up" />
             </form>

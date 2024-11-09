@@ -26,13 +26,11 @@ export default function Login (){
                     label="Email" 
                     id="email" 
                     type="email" 
-                    onChange={emailChangeHandler} 
                 />
                 <Input 
                     label="Password" 
                     id="password" 
                     type="password" 
-                    onChange={passwordChangeHandler} 
                 />
                 <Button id="login" value="Login" />
             </form>
