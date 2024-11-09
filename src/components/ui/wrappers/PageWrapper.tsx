@@ -1,7 +1,9 @@
-const PageWrapper = ({children}) => {
+import { JSX } from "react";
+
+const PageWrapper = (props: { children: JSX.Element }) => {
     return (
         <div className="max-w-6xl m-auto px-4">
-            {children}
+            {props.children}
         </div>
     );
 }
