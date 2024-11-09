@@ -6,14 +6,14 @@ import MiniGridWrapper from "@/src/components/ui/wrappers/MiniGridWrapper";
 
 export default function Login (){
     const emailChangeHandler = (e: React.FormEvent) => {
-        console.log(e.target.value);
+        //console.log(e.target.value);
     }
     const passwordChangeHandler = (e: React.FormEvent) => {
-        console.log(e.target.value);
+        //console.log(e.target.value);
     }
     const formSubmitHandler = (e: React.FormEvent) => {
-        e.preventDefault();
-        console.log('Form submit');
+        //e.preventDefault();
+        //console.log('Form submit');
     }
     
     return (
