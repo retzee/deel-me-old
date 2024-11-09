@@ -18,7 +18,9 @@ export default function Login (){
     
     return (
         <MiniGridWrapper>
-            <h2>User Login</h2>
+            <h2 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
+                User Login
+            </h2>
             <form onSubmit={formSubmitHandler} className="space-y-4 md:space-y-6">
                 <Input 
                     label="Email" 

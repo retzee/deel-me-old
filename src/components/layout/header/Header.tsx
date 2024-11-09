@@ -44,13 +44,7 @@ const Header = () => {
                 {/* Mobile Menu Container */}
                 {mobileMenuVisible && (
                     <div className={styles.navbox_mobile_screen}>
-                        <Link href='/'>
-                            <span>Menu item</span>
-                        </Link>
-
-                        <Link href='/'>
-                            <span>Menu  item 2</span>
-                        </Link>
+                        <Navbar />
                     </div>
                 )}
             </main>

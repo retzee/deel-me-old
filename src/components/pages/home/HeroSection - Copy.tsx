@@ -2,7 +2,6 @@ import Image from "next/image";
 import styles from './HeroSection.module.scss';
 
 import HeroImage from '@/public/images/Hero-Image.png';
-import HeroBg from '@/public/images/bg22.png';
 
 const HeroSection = () =>  {
     return (
